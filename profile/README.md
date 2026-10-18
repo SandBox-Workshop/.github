@@ -1,6 +1,8 @@
-<div align="center">
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SandBox-Workshop/.github/main/assets/sandbox-workshop-banner.png" alt="SandBox Workshop" width="100%">
+</p>
 
-🧰 SandBox Workshop
+<div align="center">
 
 Mon atelier de projets personnels
 
