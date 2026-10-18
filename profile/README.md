@@ -1,3 +1,5 @@
+<div align="center">
+
 # 🧰 SandBox Workshop
 
 ### Mon atelier de projets personnels
@@ -169,4 +171,6 @@ Quelques principes que j'essaie de garder :
 
 **SandBox Workshop**
 
-*Un endroit pour construire mes idées, une par une.
+*Un endroit pour construire mes idées, une par une.*
+
+</div>
