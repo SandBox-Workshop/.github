@@ -1,176 +1,196 @@
 <div align="center">
 
-# 🧰 SandBox Workshop
+🧰 SandBox Workshop
 
-### Mon atelier de projets personnels
+Mon atelier de projets personnels
 
-Bots, jeux, outils, prototypes et expérimentations développés sur mon temps libre.
+Bots, jeux, outils et expérimentations construits pour être réellement utilisés, testés et améliorés.
 
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?logo=typescript&logoColor=white)
-![Nodejs](https://img.shields.io/badge/Node.js-5FA04E?logo=nodedotjs&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
-![SQLite](https://img.shields.io/badge/SQLite-003B57?logo=sqlite&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?logo=git&logoColor=white)
+<br>
+
+<p>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white" alt="GitHub Actions">
+</p>
 
 </div>
 
----
+👋 Bienvenue dans le Workshop
 
-## 👋 Bienvenue
+SandBox Workshop est l'espace où je regroupe mes projets personnels.
 
-**SandBox Workshop** regroupe mes projets personnels : des idées que je transforme en prototypes, des outils que j'utilise réellement, des bots pour mes communautés et des jeux que je construis progressivement.
+Pas de thème unique ni de roadmap imposée : ici, un projet peut être un bot Discord utilisé entre amis, un RPG tactique en développement, un outil qui automatise une tâche répétitive ou simplement une idée que j'ai envie de pousser plus loin.
 
-L'objectif n'est pas de remplir des dépôts pour remplir des dépôts : chaque projet ici existe parce que j'avais envie de créer, tester, apprendre ou résoudre un besoin concret.
+Construire → tester → casser → corriger → utiliser → améliorer.
 
----
-
-## 🚀 Projets principaux
+🚀 Projets principaux
 
 <table>
 <tr>
 <td width="50%" valign="top">
 
-### 🍺 Antre du Malt
+<h3>🍺 <a href="https://github.com/SandBox-Workshop/antredumalte-bot">Antre du Malt</a></h3>
 
-**Bot Discord multi-jeux privé**
+<strong>Bot Discord privé multi-jeux</strong>
 
-Un hub Discord conçu pour organiser les sessions de jeu entre amis.
+<p>Un hub conçu pour organiser facilement les sessions de jeu entre amis.</p>
 
-**Fonctionnalités principales :**
+<strong>Aujourd'hui :</strong>
 
-- création et gestion de sessions ;
-- inscriptions et changements d'hôte ;
-- rôles temporaires par session ;
-- notifications automatiques ;
-- clôture automatique ;
-- catalogue de jeux administrable ;
-- persistance SQLite ;
-- sauvegardes automatiques ;
-- déploiement automatique sur VPS avec GitHub Actions.
+<ul>
+  <li>sessions planifiées et persistantes ;</li>
+  <li>inscriptions, changements d'hôte et gestion de session ;</li>
+  <li>rôles temporaires et notifications automatiques ;</li>
+  <li>catalogue de jeux administrable depuis Discord ;</li>
+  <li>clôture automatique des sessions ;</li>
+  <li>sauvegardes de production avec rotation ;</li>
+  <li>déploiement automatique sur VPS via GitHub Actions.</li>
+</ul>
 
-**Stack**
+<strong>Stack</strong>
 
-`TypeScript` · `Node.js` · `discord.js` · `SQLite` · `GameDig` · `PM2`
+<p>
+  <code>TypeScript</code> ·
+  <code>Node.js</code> ·
+  <code>discord.js</code> ·
+  <code>SQLite</code> ·
+  <code>GameDig</code> ·
+  <code>PM2</code>
+</p>
 
-**Version stable : `1.0.0`**
+<p>
+  <img src="https://img.shields.io/badge/status-stable-2ea44f?style=flat-square" alt="Stable">
+  <img src="https://img.shields.io/github/v/release/SandBox-Workshop/antredumalte-bot?style=flat-square&label=release" alt="Release">
+</p>
 
 </td>
 <td width="50%" valign="top">
 
-### 🩸 RoyalDeadGenesis
+<h3>🩸 RoyalDeadGenesis</h3>
 
-**RPG tactique dark fantasy**
+<strong>RPG tactique dark fantasy</strong>
 
-Projet de jeu développé autour d'un univers médiéval gothique sombre, avec une approche tactique et une progression par expéditions.
+<p>Un projet de jeu construit autour d'un univers médiéval gothique, de combats tactiques et d'expéditions dans des zones hostiles.</p>
 
-**Systèmes déjà développés :**
+<strong>Déjà en place :</strong>
 
-- combats tactiques en formation 2×2 ;
-- personnages, compétences et actions ;
-- exploration de donjons procéduraux ;
-- fog of war ;
-- salles de repos, trésors et boss ;
-- système de scènes et transitions ;
-- localisation française.
+<ul>
+  <li>combats tactiques en formation 2×2 ;</li>
+  <li>personnages, compétences et actions ;</li>
+  <li>système de scènes et transitions ;</li>
+  <li>donjons procéduraux ;</li>
+  <li>fog of war ;</li>
+  <li>repos, trésors et boss ;</li>
+  <li>localisation française.</li>
+</ul>
 
-**Stack**
+<strong>Stack</strong>
 
-`Python` · `Pygame` · `Poetry` · `pytest` · `ruff` · `mypy`
+<p>
+  <code>Python</code> ·
+  <code>Pygame</code> ·
+  <code>Poetry</code> ·
+  <code>pytest</code> ·
+  <code>ruff</code> ·
+  <code>mypy</code>
+</p>
 
-**Projet en développement**
+<p>
+  <img src="https://img.shields.io/badge/status-in%20development-d29922?style=flat-square" alt="In development">
+</p>
 
 </td>
 </tr>
 </table>
 
----
+🧪 Ce qu'on trouve ici
 
-## 🧪 Le Workshop
+Le Workshop n'est pas limité à deux gros projets.
 
-Tous les projets n'ont pas vocation à devenir de gros logiciels.
 
-Ici peuvent aussi apparaître :
 
-- 🤖 bots et automatisations ;
-- 🎮 prototypes de jeux ;
-- 🛠️ outils personnels ;
-- 🧩 mods et expérimentations ;
-- 🌐 petits projets web ;
-- 💡 concepts testés juste pour voir jusqu'où ils peuvent aller.
+Type de projet
 
-Certains projets évoluent pendant longtemps, d'autres restent volontairement de petits prototypes.
+Exemples
 
----
+🤖
 
-## 🛠️ Environnement de développement
+Bots & automatisations
 
-```text
-Languages
-├── TypeScript / JavaScript
-└── Python
+Discord, tâches répétitives, intégrations
 
-Backend & Data
-├── Node.js
-├── SQLite
-└── APIs / services externes
+🎮
 
-Game Dev
-└── Pygame
+Game dev
 
-Tooling
-├── Git
-├── GitHub Actions
-├── pnpm
-├── Poetry
-├── ESLint
-├── TypeScript
-├── pytest
-├── ruff
-└── mypy
+prototypes, systèmes de gameplay, outils
 
-Production
-├── Linux
-├── OVH VPS
-└── PM2
-```
+🧩
 
----
+Mods & expérimentations
 
-## 🔧 Ma façon de travailler
+essais techniques, modifications de jeux
 
-Je préfère faire évoluer les projets progressivement plutôt que construire une énorme architecture dès le premier jour.
+🛠️
 
-```text
-idée
-  ↓
-prototype
-  ↓
-feature utilisable
-  ↓
-tests / corrections
-  ↓
-mise en production
-  ↓
-amélioration continue
-```
+Outils personnels
 
-Quelques principes que j'essaie de garder :
+scripts, utilitaires, petits services
 
-- une branche par sujet ;
-- des commits compréhensibles ;
-- éviter les refactors inutiles ;
-- automatiser ce qui devient répétitif ;
-- garder les données de production séparées du code ;
-- privilégier un projet réellement utilisable à une démo jamais terminée.
+🌐
 
----
+Web
+
+interfaces et projets annexes
+
+Certains dépôts deviennent des projets suivis sur le long terme. D'autres restent volontairement de petites expériences.
+
+🛠️ Stack
+
+<p align="center">
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript">
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript">
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python">
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git">
+  <img src="https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white" alt="GitHub Actions">
+  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black" alt="Linux">
+  <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visualstudiocode&logoColor=white" alt="VS Code">
+</p>
+
+🔧 Philosophie du Workshop
+
+Je préfère un projet utilisable et vivant à une architecture parfaite qui ne sort jamais.
+
+Une idée
+   ↓
+Un prototype qui fonctionne
+   ↓
+Une vraie feature
+   ↓
+Tests & corrections
+   ↓
+Utilisation réelle
+   ↓
+Automatisation & amélioration
+
+Le code peut évoluer, les technos peuvent changer et certains projets peuvent être mis en pause.
+
+Le but reste le même : apprendre en construisant des choses concrètes.
 
 <div align="center">
 
-### 🧰 Build. Test. Break. Fix. Ship.
+🧰 Build · Break · Learn · Ship
 
-**SandBox Workshop**
+SandBox Workshop
 
-*Un endroit pour construire mes idées, une par une.*
+Mes projets perso, construits une idée à la fois.
 
 </div>
